@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CapGeminiMyMathLib'
+  s.name             = 'MyMathLib'
   s.version          = '0.1.1'
   s.summary          = 'Mathematical functionalities in Swift'
 
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Harshith-CB' => 'harshithaneygar@gmail.com' }
-  s.source           = { :git => 'https://github.com/Harshith-CB/MyMathLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Harshitha-CB/MyMathLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
