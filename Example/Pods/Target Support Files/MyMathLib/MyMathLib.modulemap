@@ -1,0 +1,6 @@
+framework module MyMathLib {
+  umbrella header "MyMathLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

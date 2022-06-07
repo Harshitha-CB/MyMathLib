@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01755FB319F3E7FAC817451C6561C519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2F7208ECB9B7D3D110144E84BD63860E /* MyMathLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF495E8F07A3327865AC074F28DC6C5 /* MyMathLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		365FF9EF284F0FCC00205753 /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365FF9EE284F0FCC00205753 /* MathUtilities.swift */; };
+		55246DB0C2D09BF2199D9EDCCE92F777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		60FF57B333F7E991C70F66836C2858CB /* Pods-MyMathLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D8BE51723AE3F1D275296A603D191B6 /* Pods-MyMathLib_Example-dummy.m */; };
+		70161DB5AB60E6845AE92E171AF4475B /* Pods-MyMathLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A47CD8F24EC822BFEC8D4339093140E4 /* Pods-MyMathLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F67675C37FEF3DE3F22C97542629D5B /* Pods-MyMathLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DCDCDF39E07A37F864F06EFB715A1D /* Pods-MyMathLib_Tests-dummy.m */; };
+		83D6EB64161CDE465437EC9ADB69DB9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		96B461AC5989F5BCC9A498C8F3931642 /* MyMathLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D01BCAC1C9B793EAF43F592D0D0C93BE /* MyMathLib-dummy.m */; };
+		D0EC6AD70FEDAA980F176780B511CF6A /* Pods-MyMathLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6054D8D2088162CB8796D267CF33EFD1 /* Pods-MyMathLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EB4D420CBA1FB7FA524FDF3DB3E9053 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEC087EFD3E2648FEF71161287A92E4;
+			remoteInfo = "Pods-MyMathLib_Example";
+		};
+		6DDE8844F1B021370EE956160DE03A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBB73743B44D17CBB37D8AB44182E32;
+			remoteInfo = MyMathLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D70516D607A086EA2DE69BFFFCA487 /* Pods-MyMathLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyMathLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D8BE51723AE3F1D275296A603D191B6 /* Pods-MyMathLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyMathLib_Example-dummy.m"; sourceTree = "<group>"; };
+		0DFDF469D8049098F31BE9AD78EC5B76 /* Pods-MyMathLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyMathLib_Tests.modulemap"; sourceTree = "<group>"; };
+		11DF29011FDAD2D09D76933B0C837916 /* Pods-MyMathLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyMathLib_Tests"; path = Pods_MyMathLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23399B2A8DC48AEE43BCFB3DD4F64C80 /* Pods-MyMathLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyMathLib_Example-Info.plist"; sourceTree = "<group>"; };
+		28520E065FF954DB16ADB95EE544B5A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2C3D0B0631C791EC3FA714CE5C468B7F /* Pods-MyMathLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyMathLib_Example"; path = Pods_MyMathLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBFA28FC0D083D0631A365B2A7C640E /* MyMathLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyMathLib.release.xcconfig; sourceTree = "<group>"; };
+		3532A568ABEAF39429124D4F905821D2 /* MyMathLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyMathLib.modulemap; sourceTree = "<group>"; };
+		365FF9EE284F0FCC00205753 /* MathUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathUtilities.swift; sourceTree = "<group>"; };
+		47D58A8DC8D522456576B9FFC47C79E5 /* Pods-MyMathLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyMathLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F2EF7BDE7EE33CB0FEEB8F35EA2FEA7 /* Pods-MyMathLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyMathLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6054D8D2088162CB8796D267CF33EFD1 /* Pods-MyMathLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyMathLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6C33CF6527E8B53F19F655562476FA81 /* Pods-MyMathLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyMathLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		793D8F1A9322621E5B2ED068812328AB /* MyMathLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyMathLib-prefix.pch"; sourceTree = "<group>"; };
+		83D8AB2835C63E4F2C621490360A4483 /* Pods-MyMathLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyMathLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		8FF495E8F07A3327865AC074F28DC6C5 /* MyMathLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyMathLib-umbrella.h"; sourceTree = "<group>"; };
+		9910F5D747990805FE9BBD2856C13DD8 /* Pods-MyMathLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyMathLib_Example.modulemap"; sourceTree = "<group>"; };
+		9D09F9C2F4EADC65A4ADC94346CDCA62 /* MyMathLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyMathLib-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19C4B899590A339AF2ABDAF53DF5A52 /* Pods-MyMathLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyMathLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A47CD8F24EC822BFEC8D4339093140E4 /* Pods-MyMathLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyMathLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		A6D9F29378E94A8E0BEFD7F9D8E7D96F /* MyMathLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyMathLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACB47A4419FF8BA5D0E692D1AC157443 /* Pods-MyMathLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyMathLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ACED681D42B6F673768EE3A5620B149F /* MyMathLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyMathLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B39D80CA1C054B28D0763E67D0908F57 /* Pods-MyMathLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyMathLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC4B2BA8EE8650C07017583133B6717C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BEA51D0281724DEBD174A9BB3BD3A623 /* Pods-MyMathLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyMathLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D01BCAC1C9B793EAF43F592D0D0C93BE /* MyMathLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyMathLib-dummy.m"; sourceTree = "<group>"; };
+		DFE1C743B918AF0242361BC878E2C715 /* Pods-MyMathLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyMathLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1DCDCDF39E07A37F864F06EFB715A1D /* Pods-MyMathLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyMathLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		E686C637028D905F651F1BF5503225B2 /* MyMathLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyMathLib.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74E333924C882477AEF55861E7A6D7DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D6EB64161CDE465437EC9ADB69DB9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8258BC7E76950136246D14F44AE98B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55246DB0C2D09BF2199D9EDCCE92F777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8A1B2AD6A40052D54506898DA4B4F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01755FB319F3E7FAC817451C6561C519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		365FF9ED284F0F7F00205753 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				365FF9EE284F0FCC00205753 /* MathUtilities.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3AE027C2BD2D2A9A9192B6060A761D50 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				28520E065FF954DB16ADB95EE544B5A9 /* LICENSE */,
+				A6D9F29378E94A8E0BEFD7F9D8E7D96F /* MyMathLib.podspec */,
+				BC4B2BA8EE8650C07017583133B6717C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3F332518B4FFD33E4F50BC7D8E58DE4C /* Pods-MyMathLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0DFDF469D8049098F31BE9AD78EC5B76 /* Pods-MyMathLib_Tests.modulemap */,
+				00D70516D607A086EA2DE69BFFFCA487 /* Pods-MyMathLib_Tests-acknowledgements.markdown */,
+				6C33CF6527E8B53F19F655562476FA81 /* Pods-MyMathLib_Tests-acknowledgements.plist */,
+				E1DCDCDF39E07A37F864F06EFB715A1D /* Pods-MyMathLib_Tests-dummy.m */,
+				83D8AB2835C63E4F2C621490360A4483 /* Pods-MyMathLib_Tests-Info.plist */,
+				6054D8D2088162CB8796D267CF33EFD1 /* Pods-MyMathLib_Tests-umbrella.h */,
+				DFE1C743B918AF0242361BC878E2C715 /* Pods-MyMathLib_Tests.debug.xcconfig */,
+				47D58A8DC8D522456576B9FFC47C79E5 /* Pods-MyMathLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-MyMathLib_Tests";
+			path = "Target Support Files/Pods-MyMathLib_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60FFA9FDBBF773ABDD82DEF39187A8FC /* Pods-MyMathLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9910F5D747990805FE9BBD2856C13DD8 /* Pods-MyMathLib_Example.modulemap */,
+				5F2EF7BDE7EE33CB0FEEB8F35EA2FEA7 /* Pods-MyMathLib_Example-acknowledgements.markdown */,
+				B39D80CA1C054B28D0763E67D0908F57 /* Pods-MyMathLib_Example-acknowledgements.plist */,
+				0D8BE51723AE3F1D275296A603D191B6 /* Pods-MyMathLib_Example-dummy.m */,
+				BEA51D0281724DEBD174A9BB3BD3A623 /* Pods-MyMathLib_Example-frameworks.sh */,
+				23399B2A8DC48AEE43BCFB3DD4F64C80 /* Pods-MyMathLib_Example-Info.plist */,
+				A47CD8F24EC822BFEC8D4339093140E4 /* Pods-MyMathLib_Example-umbrella.h */,
+				A19C4B899590A339AF2ABDAF53DF5A52 /* Pods-MyMathLib_Example.debug.xcconfig */,
+				ACB47A4419FF8BA5D0E692D1AC157443 /* Pods-MyMathLib_Example.release.xcconfig */,
+			);
+			name = "Pods-MyMathLib_Example";
+			path = "Target Support Files/Pods-MyMathLib_Example";
+			sourceTree = "<group>";
+		};
+		8694AA481D5B6E44E55D600AC48C3E71 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1A32542DF64460D0284B42A8B994441 /* MyMathLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8B7BDCBB0C11D6F9EAB3A21A10C91542 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3532A568ABEAF39429124D4F905821D2 /* MyMathLib.modulemap */,
+				D01BCAC1C9B793EAF43F592D0D0C93BE /* MyMathLib-dummy.m */,
+				9D09F9C2F4EADC65A4ADC94346CDCA62 /* MyMathLib-Info.plist */,
+				793D8F1A9322621E5B2ED068812328AB /* MyMathLib-prefix.pch */,
+				8FF495E8F07A3327865AC074F28DC6C5 /* MyMathLib-umbrella.h */,
+				E686C637028D905F651F1BF5503225B2 /* MyMathLib.debug.xcconfig */,
+				2CBFA28FC0D083D0631A365B2A7C640E /* MyMathLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MyMathLib";
+			sourceTree = "<group>";
+		};
+		98CAE0A0F776E24EFA07B7E68B29C26A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACED681D42B6F673768EE3A5620B149F /* MyMathLib.framework */,
+				2C3D0B0631C791EC3FA714CE5C468B7F /* Pods-MyMathLib_Example */,
+				11DF29011FDAD2D09D76933B0C837916 /* Pods-MyMathLib_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C21517D252B0E15249B3E861E9B88D44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60FFA9FDBBF773ABDD82DEF39187A8FC /* Pods-MyMathLib_Example */,
+				3F332518B4FFD33E4F50BC7D8E58DE4C /* Pods-MyMathLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8694AA481D5B6E44E55D600AC48C3E71 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				98CAE0A0F776E24EFA07B7E68B29C26A /* Products */,
+				C21517D252B0E15249B3E861E9B88D44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A32542DF64460D0284B42A8B994441 /* MyMathLib */ = {
+			isa = PBXGroup;
+			children = (
+				365FF9ED284F0F7F00205753 /* Classes */,
+				3AE027C2BD2D2A9A9192B6060A761D50 /* Pod */,
+				8B7BDCBB0C11D6F9EAB3A21A10C91542 /* Support Files */,
+			);
+			name = MyMathLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		494398CACCD1ECEB103747AD336CA8A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7208ECB9B7D3D110144E84BD63860E /* MyMathLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C4D12A3BB0F41511DE835BDF2B4F70C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EC6AD70FEDAA980F176780B511CF6A /* Pods-MyMathLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09B68A3AE2DFEB867D83391DB891DCC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70161DB5AB60E6845AE92E171AF4475B /* Pods-MyMathLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D44FF3A8B522015D773AE013A847C33 /* Pods-MyMathLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B42B087668FA9069072829BC08BCB4 /* Build configuration list for PBXNativeTarget "Pods-MyMathLib_Tests" */;
+			buildPhases = (
+				5C4D12A3BB0F41511DE835BDF2B4F70C /* Headers */,
+				A264D123A6EC10465745D35B2928B681 /* Sources */,
+				8258BC7E76950136246D14F44AE98B6E /* Frameworks */,
+				7E03EDC076A92DD8EBA6942834A20E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A853EE08E5E8F82762939C760963254 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyMathLib_Tests";
+			productName = Pods_MyMathLib_Tests;
+			productReference = 11DF29011FDAD2D09D76933B0C837916 /* Pods-MyMathLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EEC087EFD3E2648FEF71161287A92E4 /* Pods-MyMathLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB0A6186615A8ED4277E68BDB144067 /* Build configuration list for PBXNativeTarget "Pods-MyMathLib_Example" */;
+			buildPhases = (
+				F09B68A3AE2DFEB867D83391DB891DCC /* Headers */,
+				566A36EC293D3493266C18CC440FCF11 /* Sources */,
+				C8A1B2AD6A40052D54506898DA4B4F55 /* Frameworks */,
+				FC3BC78C14A42C77A26546B10BE95877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52D0D36445046F9AA6ECC2EF0A9F52ED /* PBXTargetDependency */,
+			);
+			name = "Pods-MyMathLib_Example";
+			productName = Pods_MyMathLib_Example;
+			productReference = 2C3D0B0631C791EC3FA714CE5C468B7F /* Pods-MyMathLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		EEBB73743B44D17CBB37D8AB44182E32 /* MyMathLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C3BC735CA22E778D3C6143F14513FB2 /* Build configuration list for PBXNativeTarget "MyMathLib" */;
+			buildPhases = (
+				494398CACCD1ECEB103747AD336CA8A8 /* Headers */,
+				87E59D162DE455530B46DD729021D189 /* Sources */,
+				74E333924C882477AEF55861E7A6D7DA /* Frameworks */,
+				61426B11622A28C342A002FD8CE3E932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMathLib;
+			productName = MyMathLib;
+			productReference = ACED681D42B6F673768EE3A5620B149F /* MyMathLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EEBB73743B44D17CBB37D8AB44182E32 = {
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 98CAE0A0F776E24EFA07B7E68B29C26A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBB73743B44D17CBB37D8AB44182E32 /* MyMathLib */,
+				4EEC087EFD3E2648FEF71161287A92E4 /* Pods-MyMathLib_Example */,
+				2D44FF3A8B522015D773AE013A847C33 /* Pods-MyMathLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61426B11622A28C342A002FD8CE3E932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E03EDC076A92DD8EBA6942834A20E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC3BC78C14A42C77A26546B10BE95877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566A36EC293D3493266C18CC440FCF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60FF57B333F7E991C70F66836C2858CB /* Pods-MyMathLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E59D162DE455530B46DD729021D189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365FF9EF284F0FCC00205753 /* MathUtilities.swift in Sources */,
+				96B461AC5989F5BCC9A498C8F3931642 /* MyMathLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A264D123A6EC10465745D35B2928B681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F67675C37FEF3DE3F22C97542629D5B /* Pods-MyMathLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A853EE08E5E8F82762939C760963254 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MyMathLib_Example";
+			target = 4EEC087EFD3E2648FEF71161287A92E4 /* Pods-MyMathLib_Example */;
+			targetProxy = 5EB4D420CBA1FB7FA524FDF3DB3E9053 /* PBXContainerItemProxy */;
+		};
+		52D0D36445046F9AA6ECC2EF0A9F52ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyMathLib;
+			target = EEBB73743B44D17CBB37D8AB44182E32 /* MyMathLib */;
+			targetProxy = 6DDE8844F1B021370EE956160DE03A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		367897B65BCA1616108F12DD95186880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19C4B899590A339AF2ABDAF53DF5A52 /* Pods-MyMathLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyMathLib_Example/Pods-MyMathLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyMathLib_Example/Pods-MyMathLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B737ECA963ACFFD1EBADE6A47A7A703 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB47A4419FF8BA5D0E692D1AC157443 /* Pods-MyMathLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyMathLib_Example/Pods-MyMathLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyMathLib_Example/Pods-MyMathLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2F393AFA5E6B16996DFCE2009B22204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBFA28FC0D083D0631A365B2A7C640E /* MyMathLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyMathLib/MyMathLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyMathLib/MyMathLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MyMathLib/MyMathLib.modulemap";
+				PRODUCT_MODULE_NAME = MyMathLib;
+				PRODUCT_NAME = MyMathLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E530D3765149CF5D8524A462844A0689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D58A8DC8D522456576B9FFC47C79E5 /* Pods-MyMathLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyMathLib_Tests/Pods-MyMathLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyMathLib_Tests/Pods-MyMathLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB146F4397C00A61E31CBB86D19F1B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E686C637028D905F651F1BF5503225B2 /* MyMathLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MyMathLib/MyMathLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MyMathLib/MyMathLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MyMathLib/MyMathLib.modulemap";
+				PRODUCT_MODULE_NAME = MyMathLib;
+				PRODUCT_NAME = MyMathLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9FE80E9BB516EB931339A87EAC13525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE1C743B918AF0242361BC878E2C715 /* Pods-MyMathLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyMathLib_Tests/Pods-MyMathLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyMathLib_Tests/Pods-MyMathLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B42B087668FA9069072829BC08BCB4 /* Build configuration list for PBXNativeTarget "Pods-MyMathLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9FE80E9BB516EB931339A87EAC13525 /* Debug */,
+				E530D3765149CF5D8524A462844A0689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C3BC735CA22E778D3C6143F14513FB2 /* Build configuration list for PBXNativeTarget "MyMathLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB146F4397C00A61E31CBB86D19F1B84 /* Debug */,
+				C2F393AFA5E6B16996DFCE2009B22204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB0A6186615A8ED4277E68BDB144067 /* Build configuration list for PBXNativeTarget "Pods-MyMathLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367897B65BCA1616108F12DD95186880 /* Debug */,
+				3B737ECA963ACFFD1EBADE6A47A7A703 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

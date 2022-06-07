@@ -1,0 +1,22 @@
+{
+  "name": "MyMathLib",
+  "version": "0.1.0",
+  "summary": "A short description of MyMathLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Harshith-CB/MyMathLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Harshith-CB": "harshithaneygar@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Harshith-CB/MyMathLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MyMathLib/Classes/**/*"
+}
