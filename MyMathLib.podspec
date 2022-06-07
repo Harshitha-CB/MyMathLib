@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyMathLib'
-  s.version          = '0.1.0'
+  s.name             = 'CapGeminiMyMathLib'
+  s.version          = '0.1.1'
   s.summary          = 'Mathematical functionalities in Swift'
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   This is simple library of basic Mathematical functions
                     DESC
 
-  s.homepage         = 'https://github.com/Harshith-CB/MyMathLib'
+  s.homepage         = 'https://github.com/Harshitha-CB/MyMathLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Harshith-CB' => 'harshithaneygar@gmail.com' }
